@@ -145,6 +145,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "xss-attack"
+    }
+  },
+  "defaultProject": "xss-attack",
+  "cli": {
+    "analytics": "f2b0959c-e3d8-4bee-ad8d-3198cc46a7aa"
+  }
 }

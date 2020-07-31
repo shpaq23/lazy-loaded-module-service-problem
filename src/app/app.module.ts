@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SecurityComponent } from "./security/SecurityComponent";
+import { DynamicComponentOutletComponent } from './dynamic-component-outlet/dynamic-component-outlet.component';
+import { ForestComponent } from './forest/forest.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SecurityComponent,
+    DynamicComponentOutletComponent,
+    ForestComponent
   ],
   imports: [
     BrowserModule,
